@@ -1,0 +1,14 @@
+Group Members:
+Name: Maylem Gonzalez 	PID: 2134900
+Name: Renan Santana		PID: 4031451
+
+Assignment assumption: 
+	We assume that, when a student enters the professor's office, he asks all of his questions in a row (instead of just one question and then letting other students attempt to speak).
+	We assume that there is only one professor in this scenario. 
+	We also assume that a student will have a minimum of 1 question for the professor. 
+	We are also assuming that the order in which the students are called to the professor's office does not matter. In other words, the student who arrived third could be the first to ask a question. 
+	We assume that the professor starts off napping if the professor thread is created first (such that no students are at the door at the start).
+	We also assume that the answering of a question takes some number of milliseconds between the range of 1 to 1000 milliseconds. This was done in order to keep the running time of test 5 to an acceptable time. The printed statement shows the number of milliseconds it took the professor thread to answer, but this would obviously be in minute and second time units if we wanted to make the simulation more realistic. 
+
+
+For instructions on using the crazy professor simulation, please view the Readme file under the test directory.
